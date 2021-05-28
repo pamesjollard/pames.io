@@ -1,6 +1,44 @@
 .jumbotron {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, black, lightgrey);
+}
+
+.navbar {
     background-color: white;
-    color: lightgrey
+    color: black;
+    position: relative;
+    float: right;
+
+}
+
+body {
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+    font-size: 65px;
+    color: black;
+}
+
+p {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+footer {
+    text-align: center;
+}
+
+
+
+.carousel {
+    border: solid black;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
